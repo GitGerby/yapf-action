@@ -10,6 +10,7 @@ LABEL "maintainer"="Alexander Melde <alexander@melde.net>"
 
 RUN pip install --upgrade pip
 RUN pip install yapf
+RUN pip install isort
 
 COPY entrypoint.sh /entrypoint.sh
 
